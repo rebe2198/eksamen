@@ -1,0 +1,420 @@
+/*----------------generelle indstillinger---------*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    font-family: 'Concert One', cursive;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*--------------------menu -----------------*/
+
+@media only screen and (min-width:800px) {
+
+    #logo {
+
+        height: 4vw;
+        width: 4vw;
+
+        width: 10%;
+
+        background-size: cover;
+        position: absolute;
+        top: -0.5vw;
+        left: 0vw;
+    }
+}
+
+#logo {
+    height: 9vw;
+    width: 9vw;
+    background-size: cover;
+    position: absolute;
+    top: -0.5vw;
+    left: 0vw;
+}
+
+
+header {
+    width: 100vw;
+    background-color: black;
+}
+
+header nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
+
+header nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Concert One', cursive;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: black;
+    padding: 0.5vw;
+
+
+}
+
+nav ul li:hover ul {
+    display: block;
+
+}
+
+
+header a {
+    padding: 0.5rem;
+    display: flex;
+    color: white;
+}
+
+
+header a:hover {
+    color: orange;
+}
+
+.hidden {
+    transform: translateX(-100%);
+    opacity: 0;
+    display: none;
+}
+
+#menuknap {
+    display: inline-block;
+    color: white;
+    margin: 0.5rem;
+}
+
+#dropdown {
+
+    top: 5vw;
+    right: 18vw;
+    display: block;
+
+}
+
+
+
+/**** media INDSTILLINGER **/
+
+@media only screen and (min-width:800px) {
+
+    #menuknap {
+        display: none;
+    }
+
+    .hidden {
+        transform: translateX(0);
+        opacity: 1;
+        display: inline-block;
+    }
+
+    header li {
+        display: inline-block;
+        letter-spacing: 1px;
+
+    }
+
+    header nav {
+        padding: 0.1rem;
+    }
+
+
+    header nav li {
+        padding: 0.3rem;
+
+        margin: 0.8rem;
+        text-decoration: none;
+        color: black;
+
+
+    }
+
+    header a:hover {
+        color: orange;
+    }
+
+    #dropdown {
+        display: none;
+        top: 4vw;
+        right: 7vw;
+        position: absolute;
+
+    }
+
+    header nav li:hover #dropdown {
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+
+
+
+
+
+
+
+    #logo_splash {
+        background-image: url(baggrund/logo.png);
+        height: 30vw;
+        width: 60vw;
+        background-size: cover;
+        position: absolute;
+        top: 20vw;
+        left: 20vw;
+    }
+
+    /*------------ forside splash ---------*/
+
+}
+
+@media only screen and (min-width:1000px) {
+    .desktop_splash {
+
+        height: 100vh;
+        background-image: url(splash/ny/Artboard_1.jpg);
+        background-size: cover;
+
+        max-width: none;
+
+
+    }
+
+
+    .mobil_splash {
+
+        display: none;
+
+    }
+}
+
+.mobil_splash {
+
+    height: 100vh;
+    background-image: url(splash/ny/Artboard_2.jpg);
+    background-size: cover;
+
+    max-width: none;
+}
+
+/*-------------portfolio--------*/
+
+#portfolio {
+    background-image: url("baggrund/fade_mobil.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+@media only screen and (min-width:1000px) {
+
+    #portfolio {
+        background-image: url("baggrund/fade_web.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+
+
+
+    }
+
+
+    #portfolio h1 {
+        color: white;
+        top: 20vw;
+        left: 20vw;
+        padding: 2vw 0vw 0vw 0vw;
+        font-size: 4rem;
+
+
+
+    }
+}
+
+#portfolio h1 {
+    color: white;
+    top: 20vw;
+    left: 20vw;
+    padding: 2vw 0vw 0vw 2vw;
+    font-size: 4rem;
+
+
+
+}
+
+
+
+#portfolio section {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+#portfolio h2 {
+    text-align: center;
+}
+
+
+
+#web .sectionwrapper {
+
+    padding-top: 4vw;
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+#portfolio .narrow {
+    flex-grow: 1;
+    flex-basis: 300px;
+    margin: 2px;
+    padding: 2px;
+    background-color: aqua;
+
+}
+
+#web .wide {
+
+    flex-grow: 3;
+    flex-basis: 600px;
+    margin: 2px;
+    padding: 2vw 2vw;
+    background-color: red;
+
+}
+
+@media only screen and (min-width:1000px) {
+
+    #web .sectionwrapper {
+        padding-top: 5vw;
+
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+
+    #portfolio .narrow {
+        flex-grow: 1;
+        flex-basis: 300px;
+        margin: 2px;
+        padding: 2px;
+        background-color: aqua;
+
+    }
+
+    #web .wide {
+
+        flex-grow: 3;
+        flex-basis: 600px;
+        margin: 2px;
+        padding: 2vw 2vw;
+        background-color: red;
+
+    }
+}
+
+
+
+
+
+#portfolio .text {
+    padding: 5vw;
+    0vw;
+    margin-top: 1vw;
+}
+
+
+#ux .sectionwrapper {
+    padding-top: 1vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#ux .narrow {
+    flex-grow: 1;
+    flex-basis: 300px;
+    margin: 2px;
+    padding: 2px;
+    background-color: aqua;
+
+}
+
+#ux .wide {
+
+    flex-grow: 3;
+    flex-basis: 600px;
+    margin: 2px;
+    padding: 2vw 2vw;
+    background-color: red;
+}
+
+#animation .sectionwrapper {
+    padding-top: 1vw;
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+#animation .narrow {
+    flex-grow: 1;
+    flex-basis: 300px;
+    margin: 2px;
+    padding: 2px;
+    background-color: aqua;
+
+}
+
+#animation .wide {
+
+    flex-grow: 3;
+    flex-basis: 600px;
+    margin: 2px;
+    padding: 2px;
+    background-color: red;
+}
+
+#indhold .sectionwrapper {
+    padding: 1vw 0vw 5vw 0vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#indhold .narrow {
+    flex-grow: 1;
+    flex-basis: 300px;
+    margin: 2px;
+    padding: 2px;
+    background-color: aqua;
+}
+
+#indhold .wide {
+
+    flex-grow: 3;
+    flex-basis: 600px;
+    margin: 2px;
+    padding: 2vw 2vw;
+    background-color: red;
+}
