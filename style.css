@@ -25,29 +25,30 @@ p {
 
 /*--------------------menu -----------------*/
 
-@media only screen and (min-width:800px) {
 
-    #logo {
-
-        height: 4vw;
-        width: 4vw;
-
-        width: 10%;
-
-        background-size: cover;
-        position: absolute;
-        top: -0.5vw;
-        left: 0vw;
-    }
-}
 
 #logo {
+
     height: 9vw;
     width: 9vw;
     background-size: cover;
     position: absolute;
     top: -0.5vw;
     left: 0vw;
+}
+
+@media only screen and (min-width:800px) {
+
+    #logo {
+
+        height: 5vw;
+        width: 5vw;
+
+        background-size: cover;
+        position: absolute;
+        top: -0.5vw;
+        left: 0vw;
+    }
 }
 
 
