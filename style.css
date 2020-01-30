@@ -55,6 +55,8 @@ p {
 header {
     width: 100vw;
     background-color: black;
+    position: fixed;
+    z-index: 100;
 }
 
 header nav {
@@ -227,12 +229,78 @@ header a:hover {
 
 /*-------------portfolio--------*/
 
+/*--------tilbage-----*/
+
+
+.back {
+    border-radius: 4px;
+
+    border: none;
+    color: #FFFFFF;
+
+
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    padding: 1.5rem;
+    width: 10vw;
+
+
+    margin: 4vw 0 0 0;
+    display: block;
+    text-transform: uppercase;
+    position: fixed;
+
+    z-index: 20;
+}
+
+.back span {
+    cursor: pointer;
+    display: inline-block;
+    position: absolute;
+    transition: 0.5s;
+    font-size: 2rem;
+}
+
+.back span:after {
+    content: 'tilbage';
+    position: relative;
+    opacity: 0;
+    top: 0;
+    right: -1vw;
+    padding-left: 0.5vw;
+    transition: 0.5s;
+}
+
+.back:hover span {
+    padding-right: 25px;
+}
+
+.back:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+/*----portfolio site -----*/
+
 #portfolio {
     background-image: url("baggrund/fade_mobil.png");
     background-repeat: no-repeat;
     background-size: cover;
 
 }
+
+#portfolio h1 {
+    color: white;
+    top: 20vw;
+    left: 20vw;
+    padding: 12vw 0vw 0vw 8vw;
+    font-size: 4rem;
+
+
+
+}
+
 
 @media only screen and (min-width:1000px) {
 
@@ -248,26 +316,17 @@ header a:hover {
 
     #portfolio h1 {
         color: white;
-        top: 20vw;
+        top: 30vw;
         left: 20vw;
-        padding: 2vw 0vw 0vw 0vw;
+        padding: 8vw 0vw 0vw 2vw;
         font-size: 4rem;
+
 
 
 
     }
 }
 
-#portfolio h1 {
-    color: white;
-    top: 20vw;
-    left: 20vw;
-    padding: 2vw 0vw 0vw 2vw;
-    font-size: 4rem;
-
-
-
-}
 
 
 
@@ -278,14 +337,14 @@ header a:hover {
 }
 
 #portfolio h2 {
-    text-align: center;
+    padding-left: 5vw;
 }
 
 
 
 #web .sectionwrapper {
 
-    padding-top: 4vw;
+    padding-top: 5vw;
     display: flex;
     flex-wrap: wrap-reverse;
 }
@@ -313,7 +372,6 @@ header a:hover {
 
     #web .sectionwrapper {
         padding-top: 5vw;
-
         display: flex;
         flex-wrap: wrap-reverse;
     }
@@ -393,7 +451,7 @@ header a:hover {
     flex-grow: 3;
     flex-basis: 600px;
     margin: 2px;
-    padding: 2px;
+    padding: 2vw 2vw;
     background-color: red;
 }
 
@@ -419,3 +477,212 @@ header a:hover {
     padding: 2vw 2vw;
     background-color: red;
 }
+
+
+
+
+/*--------knapper--------*/
+
+
+
+
+
+.button img {
+
+    width: 30vw;
+    height: 18vw;
+    background-size: cover;
+
+
+}
+
+.button {
+    margin-left: 30vw;
+    cursor: pointer;
+}
+
+@media only screen and (min-width:1000px) {
+    .button img {
+
+        width: 15vw;
+        height: 7vw;
+        background-size: cover;
+
+    }
+
+    .button {
+        margin-left: 16vw;
+        position: relative;
+    }
+
+
+
+
+}
+
+
+.but_text {
+    position: absolute;
+    bottom: 3vw;
+    left: 3.5vw;
+    font-family: 'Concert One', cursive;
+    color: white;
+    font-size: 1.8rem;
+
+}
+
+.but_text_wide {
+    position: absolute;
+    bottom: 3vw;
+    left: 2.5vw;
+    font-family: 'Concert One', cursive;
+    color: white;
+    font-size: 1.5rem;
+
+}
+
+.button img:hover {
+    animation-name: button_hover;
+    animation: button_hover 2s forwards;
+    animation-iteration-count: infinite;
+
+
+
+}
+
+@keyframes button_hover {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.5);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+/*-------web -----*/
+
+#web_site {
+    background-image: url("baggrund/fade_mobil.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+#web_site h1 {
+    color: white;
+    top: 20vw;
+    left: 20vw;
+    padding: 12vw 0vw 0vw 8vw;
+    font-size: 3.5rem;
+}
+
+#web_site section {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+#web_site .sectionwrapper {
+
+    padding-top: 5vw;
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+#web_site .narrow {
+    flex-grow: 1;
+    flex-basis: 300px;
+    margin: 2px;
+    padding: 2px;
+    background-color: aqua;
+
+}
+
+#web_site .wide {
+
+    flex-grow: 3;
+    flex-basis: 600px;
+    margin: 2px;
+    padding: 2vw 2vw;
+    background-color: red;
+
+}
+
+@media only screen and (min-width:1000px) {
+
+    #web_site {
+        background-image: url("baggrund/fade_web.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+
+
+    }
+
+    #web_site h1 {
+        color: white;
+        top: 30vw;
+        left: 20vw;
+        padding: 8vw 0vw 0vw 4vw;
+        font-size: 4rem;
+        display: flex;
+
+
+    }
+
+    #web_site section {
+        max-width: 1200px;
+        margin: 0 auto;
+
+    }
+
+    #web_site .sectionwrapper {
+
+        padding-top: 5vw;
+        display: flex;
+        flex-wrap: wrap;
+
+
+    }
+
+
+    #web_site .sectionwrapper {
+        padding-top: 5vw;
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+
+    #web_site .narrow {
+        flex-grow: 1;
+        flex-basis: 300px;
+        margin: 2px;
+        padding: 2px;
+        background-color: aqua;
+
+    }
+
+    #web_site .wide {
+
+        flex-grow: 3;
+        flex-basis: 600px;
+        margin: 2px;
+        padding: 2vw 2vw;
+        background-color: red;
+
+    }
+
+
+
+}
+
+
+/*--------ux -------*/
+
+/*------animation -----*/
+
+/*-------indhold -------*/
