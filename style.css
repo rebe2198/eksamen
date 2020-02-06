@@ -13,18 +13,54 @@ img {
 
 h1 {
     font-family: 'Montserrat', sans-serif;
+    font-size: 15rem;
 }
 
 h2 {
     font-family: 'Concert One', cursive;
+    font-size: 2rem;
+
 }
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
 
 p {
     font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}
+
+li {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+
 }
 
 /*--------------------menu -----------------*/
 
+.hidden {
+    transform: translateX(-100%);
+    opacity: 0;
+    display: none;
+}
+
+#menuknap {
+    display: inline-block;
+    color: white;
+    margin: 0.5rem;
+}
+
+#dropdown {
+
+    top: 5vw;
+    right: 18vw;
+    display: block;
+
+}
 
 
 #logo {
@@ -101,29 +137,9 @@ header a:hover {
     color: orange;
 }
 
-.hidden {
-    transform: translateX(-100%);
-    opacity: 0;
-    display: none;
-}
-
-#menuknap {
-    display: inline-block;
-    color: white;
-    margin: 0.5rem;
-}
-
-#dropdown {
-
-    top: 5vw;
-    right: 18vw;
-    display: block;
-
-}
 
 
-
-/**** media INDSTILLINGER **/
+/**** media indstillinger **/
 
 @media only screen and (min-width:800px) {
 
@@ -176,10 +192,6 @@ header a:hover {
 
 
     }
-
-
-
-
 
 
 
@@ -368,41 +380,13 @@ header a:hover {
 
 }
 
-@media only screen and (min-width:1000px) {
-
-    #web .sectionwrapper {
-        padding-top: 5vw;
-        display: flex;
-        flex-wrap: wrap-reverse;
-    }
-
-    #portfolio .narrow {
-        flex-grow: 1;
-        flex-basis: 300px;
-        margin: 2px;
-        padding: 2px;
-        background-color: aqua;
-
-    }
-
-    #web .wide {
-
-        flex-grow: 3;
-        flex-basis: 600px;
-        margin: 2px;
-        padding: 2vw 2vw;
-        background-color: red;
-
-    }
-}
-
 
 
 
 
 #portfolio .text {
     padding: 5vw;
-    0vw;
+
     margin-top: 1vw;
 }
 
@@ -566,7 +550,7 @@ header a:hover {
 
 /*-------web -----*/
 
-#web_site {
+#tema2 {
     background-image: url("baggrund/fade_mobil.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -574,37 +558,38 @@ header a:hover {
 
 }
 
-#web_site h1 {
+#tema2 h1 {
     color: white;
     top: 20vw;
     left: 20vw;
-    padding: 12vw 0vw 0vw 8vw;
+    padding: 10vw 0vw 0vw 8vw;
     font-size: 3.5rem;
 }
 
-#web_site section {
+#tema2 section {
     max-width: 1200px;
     margin: 0 auto;
 
 }
 
-#web_site .sectionwrapper {
+#tema2 .sectionwrapper {
 
-    padding-top: 5vw;
+    padding: 5vw 0 0 0;
     display: flex;
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
+    margin: 1vw;
 }
 
-#web_site .narrow {
+#tema2 .narrow {
     flex-grow: 1;
-    flex-basis: 300px;
+    flex-basis: 400px;
     margin: 2px;
-    padding: 2px;
+    padding: 2vw 2vw;
     background-color: aqua;
 
 }
 
-#web_site .wide {
+#tema2 .wide {
 
     flex-grow: 3;
     flex-basis: 600px;
@@ -614,75 +599,275 @@ header a:hover {
 
 }
 
-@media only screen and (min-width:1000px) {
-
-    #web_site {
-        background-image: url("baggrund/fade_web.png");
-        background-repeat: no-repeat;
-        background-size: cover;
-
-
-    }
-
-    #web_site h1 {
-        color: white;
-        top: 30vw;
-        left: 20vw;
-        padding: 8vw 0vw 0vw 4vw;
-        font-size: 4rem;
-        display: flex;
-
-
-    }
-
-    #web_site section {
-        max-width: 1200px;
-        margin: 0 auto;
-
-    }
-
-    #web_site .sectionwrapper {
-
-        padding-top: 5vw;
-        display: flex;
-        flex-wrap: wrap;
-
-
-    }
-
-
-    #web_site .sectionwrapper {
-        padding-top: 5vw;
-        display: flex;
-        flex-wrap: wrap-reverse;
-    }
-
-    #web_site .narrow {
-        flex-grow: 1;
-        flex-basis: 300px;
-        margin: 2px;
-        padding: 2px;
-        background-color: aqua;
-
-    }
-
-    #web_site .wide {
-
-        flex-grow: 3;
-        flex-basis: 600px;
-        margin: 2px;
-        padding: 2vw 2vw;
-        background-color: red;
-
-    }
+#tema2 .text {
+    padding: 4vw;
 
 
 
 }
 
+#tema2 h2 {
+    margin-top: 1vw;
+    text-align: center;
+
+}
+#tema2 h3 {
+    margin-top: 2vw;
+    padding-left: 4vw;
+
+}
+
+
+@media only screen and (min-width:900px) {
+    #tema2 .sectionwrapper {
+        padding: 5vw 12vw 0 12vw;
+    }
+
+    h1 {
+        padding: 8vw 0vw 0vw 8vw;
+
+    }
+}
+
 
 /*--------ux -------*/
 
+#tema3 {
+    background-image: url("baggrund/fade_mobil.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+#tema3 h1 {
+    color: white;
+    top: 20vw;
+    left: 20vw;
+    padding: 10vw 0vw 0vw 8vw;
+    font-size: 3.5rem;
+}
+
+#tema3 section {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+#tema3 .sectionwrapper {
+
+    padding: 5vw 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1vw;
+}
+
+#tema3 .narrow {
+    flex-grow: 1;
+    flex-basis: 400px;
+    margin: 2px;
+    padding: 2vw 2vw;
+    background-color: aqua;
+
+}
+
+#tema3 .wide {
+
+    flex-grow: 3;
+    flex-basis: 600px;
+    margin: 2px;
+    padding: 2vw 2vw;
+    background-color: red;
+
+}
+
+#tema3 .text {
+    padding: 4vw;
+
+
+
+}
+
+#tema3 h2 {
+    margin-top: 1vw;
+    text-align: center;
+
+}
+#tema3 h3 {
+    margin-top: 1vw;
+    padding-left: 4vw;
+
+}
+
+@media only screen and (min-width:900px) {
+    #tema3 .sectionwrapper {
+        padding: 5vw 12vw 0 12vw;
+    }
+
+    h1 {
+        padding: 8vw 0vw 0vw 8vw;
+
+    }
+}
+
 /*------animation -----*/
+#tema4 {
+    background-image: url("baggrund/fade_mobil.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+#tema4 h1 {
+    color: white;
+    top: 20vw;
+    left: 20vw;
+    padding: 10vw 0vw 0vw 8vw;
+    font-size: 3.5rem;
+}
+
+#tema4 section {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+#tema4 .sectionwrapper {
+
+    padding: 5vw 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1vw;
+}
+
+#tema4 .narrow {
+    flex-grow: 1;
+    flex-basis: 400px;
+    margin: 2px;
+    padding: 2vw 2vw;
+    background-color: aqua;
+
+}
+
+#tema4 .wide {
+
+    flex-grow: 3;
+    flex-basis: 600px;
+    margin: 2px;
+    padding: 2vw 2vw;
+    background-color: red;
+
+}
+
+#tema4 .text {
+    padding: 4vw;
+
+
+
+}
+
+#tema4 h2 {
+    margin-top: 1vw;
+ text-align: center;
+
+}
+#tema4 h3 {
+    margin-top: 1vw;
+    padding-left: 4vw;
+
+}
+
+
+@media only screen and (min-width:900px) {
+    #tema4 .sectionwrapper {
+        padding: 5vw 12vw 0 12vw;
+    }
+
+    h1 {
+        padding: 8vw 0vw 0vw 8vw;
+
+    }
+}
 
 /*-------indhold -------*/
+#tema5 {
+    background-image: url("baggrund/fade_mobil.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+#tema5 h1 {
+    color: white;
+    top: 20vw;
+    left: 20vw;
+    padding: 10vw 0vw 0vw 8vw;
+    font-size: 3.5rem;
+}
+
+#tema5 section {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+#tema5 .sectionwrapper {
+
+    padding: 5vw 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1vw;
+}
+
+#tema5 .narrow {
+    flex-grow: 1;
+    flex-basis: 400px;
+    margin: 2px;
+    padding: 2vw 2vw;
+    background-color: aqua;
+
+}
+
+#tema5 .wide {
+
+    flex-grow: 3;
+    flex-basis: 600px;
+    margin: 2px;
+    padding: 2vw 2vw;
+    background-color: red;
+
+}
+
+#tema5 .text {
+    padding: 4vw;
+
+
+
+}
+
+#tema5 h2 {
+    margin-top: 1vw;
+    text-align: center;
+
+}
+
+
+#tema5 h3 {
+    margin-top: 1vw;
+    padding-left: 4vw;
+
+}
+
+
+@media only screen and (min-width:900px) {
+    #tema5 .sectionwrapper {
+        padding: 5vw 12vw 0 12vw;
+    }
+
+    h1 {
+        padding: 8vw 0vw 0vw 8vw;
+
+    }
+}
