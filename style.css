@@ -456,7 +456,7 @@ header a:hover {
     flex-basis: 300px;
 
     padding: 2px;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: #f2f2f2;
 
 }
 
@@ -466,7 +466,7 @@ header a:hover {
     flex-basis: 600px;
 
     padding: 2vw 2vw;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: #f2f2f2;
 
 }
 
@@ -492,7 +492,7 @@ header a:hover {
     flex-basis: 300px;
 
     padding: 2px;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: #f2f2f2;
 
 }
 
@@ -502,7 +502,7 @@ header a:hover {
     flex-basis: 600px;
 
     padding: 2vw 2vw;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: #f2f2f2;
 }
 
 #animation .sectionwrapper {
@@ -516,7 +516,7 @@ header a:hover {
     flex-basis: 300px;
 
     padding: 2px;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: #f2f2f2;
 
 }
 
@@ -526,7 +526,7 @@ header a:hover {
     flex-basis: 600px;
     ;
     padding: 2vw 2vw;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: #f2f2f2;
 }
 
 #indhold .sectionwrapper {
@@ -540,7 +540,7 @@ header a:hover {
     flex-basis: 300px;
 
     padding: 2px;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: #f2f2f2;
 }
 
 #indhold .wide {
@@ -549,7 +549,7 @@ header a:hover {
     flex-basis: 600px;
 
     padding: 2vw 2vw;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: #f2f2f2;
 }
 
 
@@ -649,7 +649,7 @@ header a:hover {
     padding: 5vw 0 0 0;
     display: flex;
     flex-wrap: wrap;
-    margin: 1vw;
+
 }
 
 #tema2 .narrow {
@@ -657,7 +657,7 @@ header a:hover {
     flex-basis: 400px;
 
     padding: 2vw 2vw;
-    background-color: white;
+    background-color: #f2f2f2;
 
 }
 
@@ -667,7 +667,7 @@ header a:hover {
     flex-basis: 600px;
 
     padding: 2vw 2vw;
-    background-color: white;
+    background-color: #f2f2f2;
 }
 
 #tema2 .text {
@@ -692,7 +692,7 @@ header a:hover {
 
 @media only screen and (min-width:900px) {
     #tema2 .sectionwrapper {
-        padding: 5vw 12vw 0 12vw;
+        padding: 5vw 12vw 2vw 12vw;
     }
 
     h1 {
@@ -726,7 +726,7 @@ header a:hover {
     }
 
     .but {
-        /*margin-left: 16vw;*/
+        margin-left: 5vw;
         position: relative;
     }
 
@@ -765,7 +765,7 @@ header a:hover {
     padding: 5vw 0 0 0;
     display: flex;
     flex-wrap: wrap;
-    margin: 1vw;
+
 }
 
 #tema3 .narrow {
@@ -773,7 +773,7 @@ header a:hover {
     flex-basis: 400px;
 
     padding: 2vw 2vw;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: #f2f2f2;
 
 }
 
@@ -783,7 +783,7 @@ header a:hover {
     flex-basis: 600px;
 
     padding: 2vw 2vw;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: #f2f2f2;
 
 }
 
@@ -808,7 +808,7 @@ header a:hover {
 
 @media only screen and (min-width:900px) {
     #tema3 .sectionwrapper {
-        padding: 5vw 12vw 0 12vw;
+        padding: 5vw 12vw 2vw 12vw;
     }
 
     h1 {
@@ -845,7 +845,7 @@ header a:hover {
     padding: 5vw 0 0 0;
     display: flex;
     flex-wrap: wrap;
-    margin: 1vw;
+
 }
 
 #tema4 .narrow {
@@ -853,7 +853,7 @@ header a:hover {
     flex-basis: 400px;
 
     padding: 2vw 2vw;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: #f2f2f2;
 
 }
 
@@ -863,7 +863,7 @@ header a:hover {
     flex-basis: 600px;
 
     padding: 2vw 2vw;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: #f2f2f2;
 
 }
 
@@ -889,7 +889,7 @@ header a:hover {
 
 @media only screen and (min-width:900px) {
     #tema4 .sectionwrapper {
-        padding: 5vw 12vw 0 12vw;
+        padding: 5vw 12vw 2vw 12vw;
     }
 
     h1 {
@@ -926,7 +926,7 @@ header a:hover {
     padding: 5vw 0 0 0;
     display: flex;
     flex-wrap: wrap;
-    margin: 1vw;
+
 }
 
 #tema5 .narrow {
@@ -934,7 +934,7 @@ header a:hover {
     flex-basis: 400px;
 
     padding: 2vw 2vw;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: #f2f2f2;
 
 }
 
@@ -944,7 +944,7 @@ header a:hover {
     flex-basis: 600px;
 
     padding: 2vw 2vw;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: #f2f2f2;
 
 }
 
@@ -971,7 +971,7 @@ header a:hover {
 
 @media only screen and (min-width:900px) {
     #tema5 .sectionwrapper {
-        padding: 5vw 12vw 0 12vw;
+        padding: 5vw 12vw 2vw 12vw;
     }
 
     h1 {
@@ -1015,7 +1015,7 @@ header a:hover {
     padding: 5vw 0 0 0;
     display: flex;
     flex-wrap: wrap;
-    margin: 2vw;
+
 }
 
 #om .narrow {
@@ -1023,17 +1023,16 @@ header a:hover {
     flex-basis: 400px;
 
     padding: 2vw 2vw;
-    background-color: white;
+    background-color: #f2f2f2;
 
 }
 
 #om .wide {
-
     flex-grow: 3;
     flex-basis: 600px;
 
     padding: 2vw 2vw;
-    background-color: white;
+    background-color: #f2f2f2;
 
 
 }
@@ -1052,8 +1051,7 @@ header a:hover {
 
 @media only screen and (min-width:900px) {
     #om .sectionwrapper {
-        padding: 2vw 8vw 2vw;
-        8vw;
+        padding: 2vw 8vw 2vw 8vw;
         margin: 0vw;
     }
 
@@ -1097,7 +1095,7 @@ header a:hover {
 
 }
 
-.button img:hover {
+.butn img:hover {
     animation-name: button_hover;
     animation: button_hover 2s forwards;
     animation-iteration-count: infinite;
