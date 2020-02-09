@@ -213,12 +213,12 @@ header a:hover {
 
 
 
-@media only screen and (min-width:1500px) {
+@media only screen and (min-width:1600px) {
 
     #logo {
 
-        height: 5.5vw;
-        width: 5.5vw;
+        height: 6.5vw;
+        width: 6.5vw;
 
         background-size: cover;
         position: absolute;
@@ -228,39 +228,7 @@ header a:hover {
 
     header {
         width: 100vw;
-        height: 5vw;
-        background-color: black;
-        position: fixed;
-        z-index: 100;
-
-    }
-
-    header nav a {
-        text-decoration: none;
-        text-transform: uppercase;
-        font-weight: bold;
-        font-family: 'Heebo', sans-serif;
-        font-size: 3rem;
-
-    }
-
-    header nav li {
-        padding-top: 1vw;
-    }
-
-    #dropdown {
-        display: none;
-        top: 3.5vw;
-        right: 6.5vw;
-        position: absolute;
-
-    }
-}
-
-@media only screen and (min-width:1600px) {
-    header {
-        width: 100vw;
-        height: 7vw;
+        height: 6vw;
         background-color: black;
         position: fixed;
         z-index: 100;
@@ -276,10 +244,42 @@ header a:hover {
 
     }
 
+    header nav li {
+        padding-top: 1vw;
+    }
+
     #dropdown {
         display: none;
         top: 5vw;
         right: 9vw;
+        position: absolute;
+
+    }
+}
+
+@media only screen and (min-width:2000px) {
+    header {
+        width: 100vw;
+        height: 7vw;
+        background-color: black;
+        position: fixed;
+        z-index: 100;
+
+    }
+
+    header nav a {
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-family: 'Heebo', sans-serif;
+        font-size: 2.5rem;
+
+    }
+
+    #dropdown {
+        display: none;
+        top: 4vw;
+        right: 6.5vw;
         position: absolute;
 
     }
@@ -340,7 +340,7 @@ header a:hover {
     }
 }
 
-@media only screen and (min-width:1500px) {
+@media only screen and (min-width:1600px) {
     #splash {
         padding-top: 5vw;
     }
@@ -398,6 +398,7 @@ header a:hover {
     position: absolute;
     transition: 0.5s;
     font-size: 2rem;
+    padding-top: 2vw;
 }
 
 .back span:after {
@@ -417,6 +418,12 @@ header a:hover {
 .back:hover span:after {
     opacity: 1;
     right: 0;
+}
+
+@media only screen and (min-width:1500px) {
+    .back span {
+        padding-top: 4vw;
+    }
 }
 
 /*----portfolio site -----*/
@@ -707,7 +714,7 @@ header a:hover {
 }
 
 #tema2 .text {
-    padding: 4vw;
+    padding: 2vw;
 
 
 
@@ -715,15 +722,21 @@ header a:hover {
 
 #tema2 h2 {
     margin-top: 1vw;
-    text-align: center;
+    padding-left: 2vw;
 
 }
 
 #tema2 h3 {
     margin-top: 2vw;
-    padding-left: 4vw;
+    padding-left: 2vw;
 
 }
+
+#tema2 ul {
+
+    padding-left: 4.5vw;
+}
+
 
 
 @media only screen and (min-width:900px) {
@@ -739,6 +752,16 @@ header a:hover {
         font-size: 5rem;
 
     }
+
+    #tema2 p {
+        padding-bottom: 2vw;
+    }
+
+    #tema2 ul {
+
+        padding-left: 0vw;
+    }
+
 }
 
 
@@ -754,6 +777,8 @@ header a:hover {
 .but {
     /* margin-left: 30vw;*/
     cursor: pointer;
+    margin: 2vw 0 0 10vw;
+
 }
 
 @media only screen and (min-width:1000px) {
@@ -766,7 +791,7 @@ header a:hover {
     }
 
     .but {
-        margin-left: 5vw;
+        margin: 2vw 0 0 5vw;
         position: relative;
     }
 
@@ -828,7 +853,7 @@ header a:hover {
 }
 
 #tema3 .text {
-    padding: 4vw;
+    padding: 2vw;
 
 
 
@@ -836,15 +861,22 @@ header a:hover {
 
 #tema3 h2 {
     margin-top: 1vw;
-    text-align: center;
+    padding-left: 2vw;
 
 }
 
 #tema3 h3 {
-    margin-top: 1vw;
-    padding-left: 4vw;
+    margin-top: 2vw;
+    padding-left: 2vw;
 
 }
+
+#tema3 ul {
+
+    padding-left: 4.5vw;
+}
+
+
 
 @media only screen and (min-width:1000px) {
     #tema3 .sectionwrapper {
@@ -858,6 +890,13 @@ header a:hover {
         padding: 8vw 0vw 0vw 12vw;
         font-size: 5rem;
     }
+
+    #tema3 ul {
+
+        padding-left: 0vw;
+    }
+
+
 }
 
 /*------animation -----*/
@@ -911,7 +950,7 @@ header a:hover {
 }
 
 #tema4 .text {
-    padding: 4vw;
+    padding: 2vw;
 
 
 
@@ -919,15 +958,22 @@ header a:hover {
 
 #tema4 h2 {
     margin-top: 1vw;
-    text-align: center;
+    padding-left: 2vw;
 
 }
 
 #tema4 h3 {
-    margin-top: 1vw;
-    padding-left: 4vw;
+    margin-top: 2vw;
+    padding-left: 2vw;
 
 }
+
+#tema4 ul {
+
+    padding-left: 4.5vw;
+}
+
+
 
 
 @media only screen and (min-width:900px) {
@@ -943,6 +989,12 @@ header a:hover {
         font-size: 5rem;
 
     }
+
+    #tema5 ul {
+
+        padding-left: 0vw;
+    }
+
 }
 
 /*-------indhold -------*/
@@ -996,7 +1048,7 @@ header a:hover {
 }
 
 #tema5 .text {
-    padding: 4vw;
+    padding: 2vw;
 
 
 
@@ -1004,15 +1056,19 @@ header a:hover {
 
 #tema5 h2 {
     margin-top: 1vw;
-    text-align: center;
+    padding-left: 2vw;
 
 }
 
-
 #tema5 h3 {
-    margin-top: 1vw;
-    padding-left: 4vw;
+    margin-top: 2vw;
+    padding-left: 2vw;
 
+}
+
+#tema5 ul {
+
+    padding-left: 4.5vw;
 }
 
 
@@ -1029,6 +1085,12 @@ header a:hover {
         font-size: 5rem;
 
     }
+
+    #tema5 ul {
+
+        padding-left: 0vw;
+    }
+
 }
 
 /*-------om mig -------*/
@@ -1100,6 +1162,15 @@ header a:hover {
     margin: 2vw;
 }
 
+#om .portrait_mobile {
+    width: 80vw;
+    height: 60vw;
+
+    background-image: url(billeder/cv_billede_1.png);
+    background-size: cover;
+
+}
+
 @media only screen and (min-width:1000px) {
     #om .sectionwrapper {
         padding: 2vw 8vw 2vw 8vw;
@@ -1113,8 +1184,31 @@ header a:hover {
         padding: 8vw 0vw 0vw 8vw;
         font-size: 5rem;
 
+
     }
+
+    #om .narrow img {
+        padding-top: 10vw;
+
+
+    }
+
+    #om .portrait_desktop {
+        width: 30vw;
+        height: 48vw;
+        background-image: url(billeder/cv_billede_2.png);
+        background-size: cover;
+
+    }
+
+    #om .portrait_mobile {
+        display: none;
+    }
+
+
+
 }
+
 
 
 .butn img {
@@ -1135,7 +1229,7 @@ header a:hover {
     .butn img {
 
         width: 12vw;
-        height: 8vw;
+        height: 7vw;
         background-size: cover;
 
     }
@@ -1208,4 +1302,9 @@ footer p {
     color: white;
     padding: 0.5vw;
     font-size: 0.8rem;
+}
+
+footer img {
+    width: 10%;
+    padding-right: 1vw;
 }
