@@ -19,7 +19,7 @@ img {
 
 h1 {
     font-family: 'Heebo', sans-serif;
-    font-size: 15rem;
+    font-size: 3rem;
     text-transform: uppercase;
 }
 
@@ -64,7 +64,7 @@ li {
 #dropdown {
 
     top: 10vw;
-    right: 33vw;
+    right: 27vw;
     display: block;
 
 }
@@ -72,8 +72,8 @@ li {
 
 #logo {
 
-    height: 11vw;
-    width: 11vw;
+    height: 12vw;
+    width: 12vw;
     background-size: cover;
     position: absolute;
     top: -0.5vw;
@@ -193,7 +193,7 @@ header a:hover {
     #dropdown {
         display: none;
         top: 3.5vw;
-        right: 8vw;
+        right: 8.5vw;
         position: absolute;
 
     }
@@ -208,16 +208,10 @@ header a:hover {
 
 
 
-    /* #logo_splash {
-     background-image: url(baggrund/logo.png);
-     height: 30vw;
-     width: 60vw;
-     background-size: cover;
-     position: absolute;
-     top: 20vw;
-     left: 20vw;
- }*/
+
 }
+
+
 
 @media only screen and (min-width:1500px) {
 
@@ -246,7 +240,7 @@ header a:hover {
         text-transform: uppercase;
         font-weight: bold;
         font-family: 'Heebo', sans-serif;
-        font-size: 2rem;
+        font-size: 3rem;
 
     }
 
@@ -254,10 +248,52 @@ header a:hover {
         padding-top: 1vw;
     }
 
+    #dropdown {
+        display: none;
+        top: 3.5vw;
+        right: 6.5vw;
+        position: absolute;
 
+    }
 }
 
+@media only screen and (min-width:1600px) {
+    header {
+        width: 100vw;
+        height: 7vw;
+        background-color: black;
+        position: fixed;
+        z-index: 100;
 
+    }
+
+    header nav a {
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-family: 'Heebo', sans-serif;
+        font-size: 2rem;
+
+    }
+
+    #dropdown {
+        display: none;
+        top: 5vw;
+        right: 9vw;
+        position: absolute;
+
+    }
+
+    #logo {
+
+        height: 7.5vw;
+        width: 7.5vw;
+
+        background-size: cover;
+        position: absolute;
+
+    }
+}
 
 
 /*------------ forside splash ---------*/
@@ -397,7 +433,7 @@ header a:hover {
     top: 20vw;
     left: 20vw;
     padding: 12vw 0vw 0vw 8vw;
-    font-size: 4rem;
+    font-size: 2.4rem;
 
 
 
@@ -421,7 +457,7 @@ header a:hover {
         top: 30vw;
         left: 20vw;
         padding: 8vw 0vw 0vw 2vw;
-        font-size: 4rem;
+        font-size: 5rem;
 
 
 
@@ -446,7 +482,7 @@ header a:hover {
 
 #web .sectionwrapper {
 
-    padding-top: 5vw;
+    padding: 5vw 2vw 0 2vw;
     display: flex;
     flex-wrap: wrap-reverse;
 }
@@ -482,7 +518,7 @@ header a:hover {
 
 
 #ux .sectionwrapper {
-    padding-top: 1vw;
+    padding: 5vw 2vw 0 2vw;
     display: flex;
     flex-wrap: wrap;
 }
@@ -506,7 +542,7 @@ header a:hover {
 }
 
 #animation .sectionwrapper {
-    padding-top: 1vw;
+    padding: 5vw 2vw 0 2vw;
     display: flex;
     flex-wrap: wrap-reverse;
 }
@@ -530,7 +566,7 @@ header a:hover {
 }
 
 #indhold .sectionwrapper {
-    padding: 1vw 0vw 5vw 0vw;
+    padding: 5vw 2vw 5vw 2vw;
     display: flex;
     flex-wrap: wrap;
 }
@@ -634,8 +670,8 @@ header a:hover {
     color: white;
     top: 20vw;
     left: 20vw;
-    padding: 10vw 0vw 0vw 8vw;
-    font-size: 3.5rem;
+    padding: 20vw 0vw 0vw 2vw;
+    font-size: 2.4rem;
 }
 
 #tema2 section {
@@ -646,7 +682,7 @@ header a:hover {
 
 #tema2 .sectionwrapper {
 
-    padding: 5vw 0 0 0;
+    padding: 5vw 2vw 5vw 2vw;
     display: flex;
     flex-wrap: wrap;
 
@@ -695,8 +731,12 @@ header a:hover {
         padding: 5vw 12vw 2vw 12vw;
     }
 
-    h1 {
-        padding: 8vw 0vw 0vw 8vw;
+    #tema2 h1 {
+        color: white;
+        top: 30vw;
+        left: 20vw;
+        padding: 8vw 0vw 0vw 12vw;
+        font-size: 5rem;
 
     }
 }
@@ -750,8 +790,8 @@ header a:hover {
     color: white;
     top: 20vw;
     left: 20vw;
-    padding: 10vw 0vw 0vw 8vw;
-    font-size: 3.5rem;
+    padding: 20vw 0vw 0vw 2vw;
+    font-size: 2.4rem;
 }
 
 #tema3 section {
@@ -762,7 +802,7 @@ header a:hover {
 
 #tema3 .sectionwrapper {
 
-    padding: 5vw 0 0 0;
+    padding: 5vw 2vw 5vw 2vw;
     display: flex;
     flex-wrap: wrap;
 
@@ -806,14 +846,17 @@ header a:hover {
 
 }
 
-@media only screen and (min-width:900px) {
+@media only screen and (min-width:1000px) {
     #tema3 .sectionwrapper {
         padding: 5vw 12vw 2vw 12vw;
     }
 
-    h1 {
-        padding: 8vw 0vw 0vw 8vw;
-
+    #tema3 h1 {
+        color: white;
+        top: 30vw;
+        left: 20vw;
+        padding: 8vw 0vw 0vw 12vw;
+        font-size: 5rem;
     }
 }
 
@@ -830,8 +873,8 @@ header a:hover {
     color: white;
     top: 20vw;
     left: 20vw;
-    padding: 10vw 0vw 0vw 8vw;
-    font-size: 3.5rem;
+    padding: 20vw 0vw 0vw 2vw;
+    font-size: 2.4rem;
 }
 
 #tema4 section {
@@ -842,7 +885,7 @@ header a:hover {
 
 #tema4 .sectionwrapper {
 
-    padding: 5vw 0 0 0;
+    padding: 5vw 2vw 5vw 2vw;
     display: flex;
     flex-wrap: wrap;
 
@@ -892,8 +935,12 @@ header a:hover {
         padding: 5vw 12vw 2vw 12vw;
     }
 
-    h1 {
-        padding: 8vw 0vw 0vw 8vw;
+    #tema4 h1 {
+        color: white;
+        top: 30vw;
+        left: 20vw;
+        padding: 8vw 0vw 0vw 12vw;
+        font-size: 5rem;
 
     }
 }
@@ -911,8 +958,8 @@ header a:hover {
     color: white;
     top: 20vw;
     left: 20vw;
-    padding: 10vw 0vw 0vw 8vw;
-    font-size: 3.5rem;
+    padding: 20vw 0vw 0vw 2vw;
+    font-size: 2.4rem;
 }
 
 #tema5 section {
@@ -923,7 +970,7 @@ header a:hover {
 
 #tema5 .sectionwrapper {
 
-    padding: 5vw 0 0 0;
+    padding: 5vw 2vw 5vw 2vw;
     display: flex;
     flex-wrap: wrap;
 
@@ -969,13 +1016,17 @@ header a:hover {
 }
 
 
-@media only screen and (min-width:900px) {
+@media only screen and (min-width:1000px) {
     #tema5 .sectionwrapper {
         padding: 5vw 12vw 2vw 12vw;
     }
 
-    h1 {
-        padding: 8vw 0vw 0vw 8vw;
+    #tema5 h1 {
+        color: white;
+        top: 30vw;
+        left: 20vw;
+        padding: 8vw 0vw 0vw 12vw;
+        font-size: 5rem;
 
     }
 }
@@ -993,8 +1044,8 @@ header a:hover {
     color: white;
     top: 20vw;
     left: 20vw;
-    padding: 10vw 0vw 0vw 8vw;
-    font-size: 3.5rem;
+    padding: 20vw 0vw 0vw 32vw;
+    font-size: 2.4rem;
 }
 
 #om h2 {
@@ -1012,7 +1063,7 @@ header a:hover {
 
 #om .sectionwrapper {
 
-    padding: 5vw 0 0 0;
+    padding: 5vw 2vw 5vw 2vw;
     display: flex;
     flex-wrap: wrap;
 
@@ -1049,14 +1100,18 @@ header a:hover {
     margin: 2vw;
 }
 
-@media only screen and (min-width:900px) {
+@media only screen and (min-width:1000px) {
     #om .sectionwrapper {
         padding: 2vw 8vw 2vw 8vw;
         margin: 0vw;
     }
 
     #om h1 {
+        color: white;
+        top: 30vw;
+        left: 20vw;
         padding: 8vw 0vw 0vw 8vw;
+        font-size: 5rem;
 
     }
 }
