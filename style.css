@@ -719,8 +719,8 @@ header a:hover {
 @media only screen and (min-width:1000px) {
     .but img {
 
-        width: 8vw;
-        height: 5vw;
+        width: 10vw;
+        height: 6vw;
         background-size: cover;
 
     }
@@ -1045,6 +1045,11 @@ header a:hover {
 
 }
 
+#om p {
+    line-height: 21px;
+    margin: 2vw;
+}
+
 @media only screen and (min-width:900px) {
     #om .sectionwrapper {
         padding: 2vw 8vw 2vw;
@@ -1059,6 +1064,61 @@ header a:hover {
 }
 
 
+.butn img {
+
+    width: 30vw;
+    height: 17vw;
+    background-size: cover;
+
+
+}
+
+.butn {
+    margin-left: 30vw;
+    cursor: pointer;
+}
+
+@media only screen and (min-width:1000px) {
+    .butn img {
+
+        width: 12vw;
+        height: 8vw;
+        background-size: cover;
+
+    }
+
+    .butn {
+        margin-left: 16vw;
+        position: relative;
+    }
+
+
+
+
+}
+
+.button img:hover {
+    animation-name: button_hover;
+    animation: button_hover 2s forwards;
+    animation-iteration-count: infinite;
+
+
+
+}
+
+@keyframes button_hover {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.5);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
 
 
 /*---footer-----*/
