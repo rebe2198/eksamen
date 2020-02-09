@@ -498,8 +498,10 @@ header a:hover {
     flex-grow: 1;
     flex-basis: 300px;
 
-    padding: 2px;
+    padding: 4vw 1.5vw 0 0;
     background-color: #f2f2f2;
+
+
 
 }
 
@@ -534,7 +536,7 @@ header a:hover {
     flex-grow: 1;
     flex-basis: 300px;
 
-    padding: 2px;
+    padding: 4vw 0 1.5vw 0;
     background-color: #f2f2f2;
 
 }
@@ -558,7 +560,7 @@ header a:hover {
     flex-grow: 1;
     flex-basis: 300px;
 
-    padding: 2px;
+    padding: 4vw 1.5vw 0 0;
     background-color: #f2f2f2;
 
 }
@@ -582,7 +584,7 @@ header a:hover {
     flex-grow: 1;
     flex-basis: 300px;
 
-    padding: 2px;
+    padding: 4vw 0 1.5vw 0;
     background-color: #f2f2f2;
 }
 
