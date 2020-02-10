@@ -39,6 +39,7 @@ h3 {
 p {
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
+    padding-bottom: 2vw;
 }
 
 li {
@@ -485,6 +486,10 @@ header a:hover {
     padding-left: 5vw;
 }
 
+#portfolio .narrow img {
+    width: 90%;
+    padding-left: 10vw;
+}
 
 
 #web .sectionwrapper {
@@ -536,7 +541,7 @@ header a:hover {
     flex-grow: 1;
     flex-basis: 300px;
 
-    padding: 4vw 0 1.5vw 0;
+    padding: 2vw 0 0 1.5vw;
     background-color: #f2f2f2;
 
 }
@@ -584,7 +589,7 @@ header a:hover {
     flex-grow: 1;
     flex-basis: 300px;
 
-    padding: 4vw 0 1.5vw 0;
+    padding: 4vw 0 0 1.5vw;
     background-color: #f2f2f2;
 }
 
@@ -597,7 +602,13 @@ header a:hover {
     background-color: #f2f2f2;
 }
 
+@media only screen and (min-width:1000px) {
+    #portfolio .narrow img {
+        width: 100%;
+        padding-left: 0;
+    }
 
+}
 
 
 /*--------knapper--------*/
@@ -709,7 +720,7 @@ header a:hover {
 #tema2 .wide {
 
     flex-grow: 3;
-    flex-basis: 600px;
+    flex-basis: 500px;
 
     padding: 2vw 2vw;
     background-color: #f2f2f2;
@@ -743,14 +754,14 @@ header a:hover {
 
 @media only screen and (min-width:900px) {
     #tema2 .sectionwrapper {
-        padding: 5vw 12vw 2vw 12vw;
+        padding: 0 12vw 5vw 12vw;
     }
 
     #tema2 h1 {
         color: white;
         top: 30vw;
         left: 20vw;
-        padding: 8vw 0vw 0vw 12vw;
+        padding: 8vw 0vw 5vw 12vw;
         font-size: 5rem;
 
     }
@@ -847,7 +858,7 @@ header a:hover {
 #tema3 .wide {
 
     flex-grow: 3;
-    flex-basis: 600px;
+    flex-basis: 500px;
 
     padding: 2vw 2vw;
     background-color: #f2f2f2;
@@ -882,14 +893,14 @@ header a:hover {
 
 @media only screen and (min-width:1000px) {
     #tema3 .sectionwrapper {
-        padding: 5vw 12vw 2vw 12vw;
+        padding: 0 12vw 5vw 12vw;
     }
 
     #tema3 h1 {
         color: white;
         top: 30vw;
         left: 20vw;
-        padding: 8vw 0vw 0vw 12vw;
+        padding: 8vw 0vw 5vw 12vw;
         font-size: 5rem;
     }
 
@@ -897,6 +908,7 @@ header a:hover {
 
         padding-left: 0vw;
     }
+
 
 
 }
@@ -944,7 +956,7 @@ header a:hover {
 #tema4 .wide {
 
     flex-grow: 3;
-    flex-basis: 600px;
+    flex-basis: 500px;
 
     padding: 2vw 2vw;
     background-color: #f2f2f2;
@@ -954,8 +966,10 @@ header a:hover {
 #tema4 .text {
     padding: 2vw;
 
+}
 
-
+#tema4. p {
+    padding-bottom: 2vw;
 }
 
 #tema4 h2 {
@@ -980,14 +994,14 @@ header a:hover {
 
 @media only screen and (min-width:900px) {
     #tema4 .sectionwrapper {
-        padding: 5vw 12vw 2vw 12vw;
+        padding: 0 12vw 5vw 12vw;
     }
 
     #tema4 h1 {
         color: white;
         top: 30vw;
         left: 20vw;
-        padding: 8vw 0vw 0vw 12vw;
+        padding: 8vw 0vw 5vw 12vw;
         font-size: 5rem;
 
     }
@@ -995,6 +1009,10 @@ header a:hover {
     #tema5 ul {
 
         padding-left: 0vw;
+    }
+
+    #tema4. p {
+        padding-bottom: 2vw;
     }
 
 }
@@ -1042,7 +1060,7 @@ header a:hover {
 #tema5 .wide {
 
     flex-grow: 3;
-    flex-basis: 600px;
+    flex-basis: 500px;
 
     padding: 2vw 2vw;
     background-color: #f2f2f2;
@@ -1076,14 +1094,14 @@ header a:hover {
 
 @media only screen and (min-width:1000px) {
     #tema5 .sectionwrapper {
-        padding: 5vw 12vw 2vw 12vw;
+        padding: 0 12vw 5vw 12vw;
     }
 
     #tema5 h1 {
         color: white;
         top: 30vw;
         left: 20vw;
-        padding: 8vw 0vw 0vw 12vw;
+        padding: 8vw 0vw 5vw 12vw;
         font-size: 5rem;
 
     }
@@ -1092,6 +1110,27 @@ header a:hover {
 
         padding-left: 0vw;
     }
+
+
+}
+
+}
+
+/*
+
+@media only screen and (min-width:2000px) {
+    #tema5 .narrow {
+        flex-grow: 1;
+        flex-basis: 600px;
+    }
+
+    #tema5 .wide {
+        flex-grow: 3;
+        flex-basis: 800px;
+    }
+*/
+
+
 
 }
 
@@ -1175,7 +1214,7 @@ header a:hover {
 
 @media only screen and (min-width:1000px) {
     #om .sectionwrapper {
-        padding: 2vw 8vw 2vw 8vw;
+        padding: 2vw 8vw 8vw 8vw;
         margin: 0vw;
     }
 
